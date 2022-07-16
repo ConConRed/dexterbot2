@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+  color: white;
+}
+body {
+  background-color: rgb(21, 19, 28);
+}
+.Header {
+  background-color: rgb(14, 13, 19);
+  overflow: hidden;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+.Header h1 {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 23px;
+
+}
+.Header img {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.Header a {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  border-bottom: 3px solid transparent;
+}
+.Header a:hover {
+  border-bottom: 3px solid #800000;
+  transition: .5s;
+}
+.Header a.active {
+  border-bottom: 3px solid #800000;
+}
+.footer {
+  background-color: rgb(14, 13, 19);
+  overflow: hidden;
+  padding: 50px;
+  color: white;
+}
+
+.whydexterbot {
+  background-image: linear-gradient(#800000, rgb(21, 19, 28));
+
+  text-align: center;
+  color: white;
+  height: 300px;
+  padding: 150px;
+}
+.info {
+  padding: 200px;
+text-align: center;
+}
+.info h1 {
+  font-size: 50px;
+  padding: 50px 0px;
+}
+
+.column1 {
+  display: inline-block;
+  background-color: orange;
+  padding: 50px 25px;
+  width: 650px;
+  max-width: 650px;
+}
+.column2 {
+  display: inline-block;
+  background-color: orange;
+  padding: 50px 25px;
+  width: 650px;
+  max-width: 650px;
+}
